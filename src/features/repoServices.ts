@@ -11,7 +11,7 @@ export const getListUser =
   async (dispatch, getState) => {
     const key = "getListUser";
     let pageFilter = 1,
-      perPageFilter = 50;
+      perPageFilter = 5;
     if (payload.mode === "next") {
       const { page, per_page } = getState().repo.dataPage;
       pageFilter = page;
