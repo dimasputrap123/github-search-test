@@ -2,7 +2,7 @@ import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 import { DataPage, ListRepoItem, ListUserItem, RepoState } from "../types";
 
 const initialState: RepoState = {
-  dataPage: { data: [], page: 1, per_page: 20 },
+  dataPage: { data: [], page: 1, per_page: 5 },
   repoList: {},
 };
 
